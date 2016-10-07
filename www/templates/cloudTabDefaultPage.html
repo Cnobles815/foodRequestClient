@@ -1,0 +1,12 @@
+<ion-view title="Cloud Tab Default Page" id="page4">
+    <ion-content padding="true" class="has-header">
+      <div class="list card">
+
+        <a href="#/main/details/{{response.id}}" class="item item-icon-left" ng-repeat="response in responses">
+          <i class="icon ion-home"></i>
+          {{response.text}}
+        </a>
+
+      </div>
+    </ion-content>
+</ion-view>

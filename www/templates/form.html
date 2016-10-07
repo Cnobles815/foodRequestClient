@@ -1,0 +1,17 @@
+<ion-view title="Form" id="page2">
+    <ion-content padding="true" class="has-header">
+        <form id="form-form3" class="list">
+            <ion-item id="form-list-item1">Please enter zip code</ion-item>
+            <div class="spacer" style="width: 300px; height: 32px;"></div>
+            <label class="item item-input" id="form-input3">
+                <span class="input-label">Enter Name</span>
+                <input type="text" id="name" ng-model="name" name ="name" placeholder="">
+            </label>
+            <label class="item item-input" id="form-input3">
+                <span class="input-label">Enter Zipcode</span>
+                <input type="text" id="zip" ng-model="food.zip" name="zip" placeholder="">
+            </label>
+            <button class="button button-large button-stable" ng-click="submit('sample')">Submit</button>
+        </form>
+    </ion-content>
+</ion-view>
